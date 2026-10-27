@@ -1,0 +1,13 @@
+# 运行产物 / 私密数据
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+data/
+*.db
+*.db-wal
+*.db-shm
+*.log
+config.json
+*.jsonl
+logs/

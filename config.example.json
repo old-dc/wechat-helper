@@ -1,0 +1,25 @@
+{
+  "db_path": "data/wechat.db",
+  "watch_groups": ["示例群名A"],
+  "watch_options": {
+    "tick": 0.3,
+    "batch_size": 8,
+    "tail_size": 8
+  },
+  "privacy": {
+    "allow_chats": ["示例联系人备注名", "示例群名A"],
+    "exclude_chats": ["文件传输助手"],
+    "access": {
+      "levels": {
+        "1": "key_level1_public",
+        "2": "key_level2_internal",
+        "3": "key_level3_secret"
+      },
+      "chats": {
+        "示例群名A": 1,
+        "示例联系人备注名": 3
+      },
+      "default_level": 1
+    }
+  }
+}
